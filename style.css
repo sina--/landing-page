@@ -144,8 +144,11 @@ button {
 	color: white;
 	border-radius: 12px;
 	margin: 64px;
-	padding: 32px;
 	gap: 32px;
+	flex: 1;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 64px;
 }
 
 .modal h3 {
@@ -159,7 +162,6 @@ button {
 .modal button {
 	border-style: solid;
 	border-color: white;
-	flex: 0 0 auto;
 }
 
 .footer {
