@@ -1,22 +1,27 @@
 body {
 	margin: 0;
 	overflow: hidden;
-	color: blue;
 	font-family: Arial;
+	font-size: 18px;
+}
+
+.header,
+.landing {
+	display: flex;
+	background-color: #1F2937;
+	color: #F9FAF8;
+	justify-content: space-between;
+	align-items: center;
+	padding: 64px 64px;
 }
 
 .header {
 	height: 72px;
-	display: flex;
-	background-color: #1F2937;
-	color: white;
-	justify-content: space-between;
-	align-items: center;
 	padding: 0px 64px;
 }
 
 .logo {
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 800;
 }
 
@@ -29,4 +34,38 @@ body {
 	gap: 16px;
 }
 
-	
+.landing {
+	display: flex;
+	color: #E5E7EB;
+	justify-content: space-evenly;
+}
+
+.landing .left {
+	flex: 1;
+}
+
+.landing .right {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.landing .title {
+	font-size: 48px;
+	font-weight: 800;
+	color: #F9FAF8;
+}
+
+.landing button {
+	background-color:#3882F6;
+}
+
+.placeholder {
+	height: 240px;
+	flex: 1;
+	background-color: #F9FAF8;
+	opacity: 0.3;
+	color: white;
+	align-items: center;
+}
