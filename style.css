@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+	overflow: hidden;
+	color: blue;
+	font-family: Arial;
+}
+
+.header {
+	height: 72px;
+	display: flex;
+	background-color: #1F2937;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header ul {
+	display: flex;
+	color: white;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+	
